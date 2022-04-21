@@ -1,0 +1,311 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.HouseTest\\HouseProject.HouseTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.ApplicationServices\\HouseProject.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.ApplicationServices\\HouseProject.ApplicationServices.csproj",
+        "projectName": "HouseProject.ApplicationServices",
+        "projectPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.ApplicationServices\\HouseProject.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\J.Sound\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.ApplicationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\J.Sound\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Core\\HouseProject.Core.csproj": {
+                "projectPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Core\\HouseProject.Core.csproj"
+              },
+              "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Data\\HouseProject.Data.csproj": {
+                "projectPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Data\\HouseProject.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Core\\HouseProject.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Core\\HouseProject.Core.csproj",
+        "projectName": "HouseProject.Core",
+        "projectPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Core\\HouseProject.Core.csproj",
+        "packagesPath": "C:\\Users\\J.Sound\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\J.Sound\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Data\\HouseProject.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Data\\HouseProject.Data.csproj",
+        "projectName": "HouseProject.Data",
+        "projectPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Data\\HouseProject.Data.csproj",
+        "packagesPath": "C:\\Users\\J.Sound\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\J.Sound\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Core\\HouseProject.Core.csproj": {
+                "projectPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.Core\\HouseProject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.HouseTest\\HouseProject.HouseTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.HouseTest\\HouseProject.HouseTest.csproj",
+        "projectName": "HouseProject.HouseTest",
+        "projectPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.HouseTest\\HouseProject.HouseTest.csproj",
+        "packagesPath": "C:\\Users\\J.Sound\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.HouseTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\J.Sound\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.ApplicationServices\\HouseProject.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\J.Sound\\Desktop\\TTHK\\Programeerimine\\House\\HouseProject\\HouseProject\\HouseProject.ApplicationServices\\HouseProject.ApplicationServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
